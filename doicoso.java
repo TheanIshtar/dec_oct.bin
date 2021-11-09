@@ -4,7 +4,6 @@ import java.util.*;
 public class doicoso {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("CHUONG TRINH CHUYEN DOI SO TU HE 2 HOAC 8 SANG THAP PHAN:");
         System.out.print("Nhap vao co so N (co so muon chuyen doi) = ");
         int n = in.nextInt();
         System.out.print("DEC: ");
@@ -22,7 +21,7 @@ public class doicoso {
         } else if (dem == 10) {
             System.out.println("DEC: " + bin);
         } else {
-            System.out.println("Vui long nhap co so 2 hoac 8");
+            System.out.println("HEX: " + bin);
         }
 
         // System.out.println("Sau khi chuyen thanh so" + kq + " la: " + bin);
